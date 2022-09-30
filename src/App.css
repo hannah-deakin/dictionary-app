@@ -4,10 +4,16 @@
 }
 
 .App-header {
-  max-width: 300px;
+  max-width: 500px;
   margin: 0 auto;
   text-align: center;
   display: block;
-  font-size: 40px;
   color: white;
+}
+
+.App h1 {
+  font-size: 60px;
+}
+.App p {
+  font-size: 15px;
 }
