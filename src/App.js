@@ -14,7 +14,7 @@ function App() {
           </p>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="garden" />
         </main>
         <footer>Coded by Hannah Deakin</footer>
       </div>
