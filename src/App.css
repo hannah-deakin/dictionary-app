@@ -8,12 +8,15 @@
   margin: 0 auto;
   text-align: center;
   display: block;
-  color: white;
+  color: 0 0 0 rgba(0, 0, 0, 0.3);
 }
 
 .App h1 {
-  font-size: 60px;
+  font-size: 70px;
+  font-weight: bold;
 }
+
 .App p {
-  font-size: 15px;
+  font-size: 20px;
+  font-weight: bold;
 }

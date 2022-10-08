@@ -1,10 +1,6 @@
 import React from "react";
+import "./Definitions.css";
 
 export default function Definitions(props) {
-  return (
-    <div className="Definitions">
-      <strong>Definitions: </strong>
-      {props.definitions}
-    </div>
-  );
+  return <div className="Definitions">{props.definitions}</div>;
 }

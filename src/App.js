@@ -9,14 +9,38 @@ function App() {
           <h1>Dictionary</h1>
           <p>
             "If the word doesn't exist, invent it; but first be sure it doesn't
-            exist"
-            <br /> – Charles Baudelaire
+            exist" – Charles Baudelaire
           </p>
         </header>
         <main>
           <Dictionary defaultKeyword="garden" />
         </main>
-        <footer>Coded by Hannah Deakin</footer>
+        <footer>
+          Code by{" "}
+          <a
+            href="https://github.com/hannah-deakin"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Hannah Deakin
+          </a>
+          , open-source on{" "}
+          <a
+            href="https://github.com/hannah-deakin/dictionary-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+          , and hosted on{" "}
+          <a
+            href="https://tourmaline-faloodeh-b7b641.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
+          </a>
+        </footer>
       </div>
     </div>
   );
