@@ -18,14 +18,14 @@ body {
   color: 0 0 0 rgba(0, 0, 0, 0.3);
 }
 
-.App h1 {
+.App-header h1 {
   font-size: 70px;
   font-weight: bold;
-  font-style: italic;
   padding: 10px 0;
+  font-style: italic;
 }
 
-.App p {
-  font-size: 20px;
+.App-header p {
+  font-size: 16px;
   padding: 10px 0;
 }

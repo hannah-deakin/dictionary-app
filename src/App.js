@@ -8,8 +8,11 @@ function App() {
         <header className="App-header">
           <h1>Dictionary</h1>
           <p>
-            "If the word doesn't exist, invent it; but first be sure it doesn't
-            exist" – Charles Baudelaire
+            <em>
+              "If the word doesn't exist, invent it; <br />
+              but first be sure it doesn't exist"
+            </em>{" "}
+            – Charles Baudelaire
           </p>
         </header>
         <main>
