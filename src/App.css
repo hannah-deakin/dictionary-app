@@ -1,6 +1,9 @@
 .App {
   background-color: #fdc538;
-  margin: 50px 0;
+  max-width: 960px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
 }
 
 .App-header {

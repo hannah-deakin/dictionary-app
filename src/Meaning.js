@@ -7,6 +7,8 @@ import "./Meaning.css";
 export default function Meaning(props) {
   return (
     <div className="Meaning">
+      <h1>Learn 📖</h1>
+      <hr />
       <h3>{props.meaning.partOfSpeech}</h3>
       {props.meaning.definitions.map(function (definition, index) {
         if (index <= 4) {

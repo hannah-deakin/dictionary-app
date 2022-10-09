@@ -4,12 +4,14 @@ import Phonetics from "./Phonetics.js";
 import "./Results.css";
 
 export default function Results(props) {
-  console.log(props.results);
+  //console.log(props.results);
   if (props.results) {
     return (
       <div className="Results">
         <section>
-          <h2>{props.results.word}</h2>
+          <h1>Listen 👂🏼</h1>
+          <hr />
+          <h3>{props.results.word}</h3>
           <Phonetics phonetics={props.results.phonetics} />
         </section>
         {props.results.meanings.map(function (meaning, index) {

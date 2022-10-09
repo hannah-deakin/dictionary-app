@@ -5,11 +5,7 @@ import "./Phonetic.css";
 export default function Phonetic(props) {
   return (
     <div className="Phonetic">
-      <ReactAudioPlayer
-        src={props.phonetic.audio}
-        onPlay={true}
-        controls={true}
-      />
+      <ReactAudioPlayer src={props.phonetic.audio} autoPlay controls />
       <span className="text">{props.phonetic.text}</span>
     </div>
   );

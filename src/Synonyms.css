@@ -6,8 +6,10 @@
 .Synonyms li {
   display: inline-block;
   padding: 6px 10px;
-  border: 1px solid #ddd;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 7px;
   margin-right: 10px;
+  box-shadow: 0 3px 8px rgb(0 0 0 / 5%);
+  background-color: rgba (252, 196, 72, 0.2);
   color: #333;
 }
