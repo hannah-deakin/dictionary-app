@@ -13,7 +13,7 @@ function App() {
           </p>
         </header>
         <main>
-          <Dictionary defaultKeyword="garden" />
+          <Dictionary defaultKeyword="explore" />
         </main>
         <footer>
           Code by{" "}
