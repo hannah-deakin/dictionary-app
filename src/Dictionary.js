@@ -45,6 +45,7 @@ export default function Dictionary(props) {
   }
 
   if (loaded) {
+    console.log(results);
     return (
       <div className="Dictionary">
         <section>
@@ -60,7 +61,7 @@ export default function Dictionary(props) {
             />
           </form>
           <div className="hint">
-            suggested words: <strong> china, forest, lychee</strong>
+            suggested words: <strong> leaves, bark, set</strong>
           </div>
           <Photos photos={photos} />
         </section>
