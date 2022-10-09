@@ -14,11 +14,11 @@ export default function Meaning(props) {
         if (index <= 4) {
           return (
             <div key={index}>
-              <p>
+              <div>
                 <Definitions definitions={definition.definition} />
                 <Examples examples={definition.example} />
                 <Synonyms synonyms={definition.synonyms} />
-              </p>
+              </div>
               <hr />
             </div>
           );

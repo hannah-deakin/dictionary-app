@@ -1,3 +1,7 @@
+body {
+  font-family: "Arvo", serif;
+}
+
 .App {
   background-color: #fdc538;
   max-width: 960px;
@@ -17,9 +21,11 @@
 .App h1 {
   font-size: 70px;
   font-weight: bold;
+  font-style: italic;
+  padding: 10px 0;
 }
 
 .App p {
   font-size: 20px;
-  font-weight: bold;
+  padding: 10px 0;
 }
