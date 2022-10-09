@@ -45,7 +45,6 @@ export default function Dictionary(props) {
   }
 
   if (loaded) {
-    console.log(results);
     return (
       <div className="Dictionary">
         <section>
